@@ -20,11 +20,10 @@ public class ProdutosDAO {
             prep.setString(1, produto.getNome());
             prep.setInt(2, produto.getValor());
             prep.setString(3, produto.getStatus());
-
             prep.executeUpdate();
 
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Erro ao cadastrar: " + e.getMessage());
+            JOptionPane.showMessageDialog(null, "Erro ao Cadastrar: " + e.getMessage());
         }
     }
     
