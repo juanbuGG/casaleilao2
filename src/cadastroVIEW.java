@@ -154,7 +154,7 @@ public class cadastroVIEW extends javax.swing.JFrame {
         produtodao.cadastrarProduto(produto);
 
         // ✅ MENSAGEM DE SUCESSO
-        javax.swing.JOptionPane.showMessageDialog(null, "Produto cadastrado com sucesso!");
+        javax.swing.JOptionPane.showMessageDialog(null, "Produto Cadastrado com Sucesso!");
 
         // ✅ LIMPAR CAMPOS (fica mais profissional)
         cadastroNome.setText("");
@@ -162,7 +162,7 @@ public class cadastroVIEW extends javax.swing.JFrame {
 
     } catch (Exception e) {
         // ❌ MENSAGEM DE ERRO
-        javax.swing.JOptionPane.showMessageDialog(null, "Erro ao cadastrar: " + e.getMessage());
+        javax.swing.JOptionPane.showMessageDialog(null, "Erro ao Cadastrar: " + e.getMessage());
     }
         
     }//GEN-LAST:event_btnCadastrarActionPerformed
